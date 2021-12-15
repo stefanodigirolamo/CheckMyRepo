@@ -9,7 +9,7 @@ export const handleCheckRepo = async (name, repository, setIsRepoExsist) => {
 
 export const handleSendUserInfo = async (data) => {
   let response = await fetch(
-    'https://pushmore.io/webhook/6TFMGBX8n6vK1phE5kNzdgHf',
+    'https://pushmore.io/webhook/d3Gm4aEPCuhAUjfbECLLdW41',
     {
       method: "POST",
       headers: {
